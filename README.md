@@ -1,1 +1,2 @@
-## Shell using fork()
+## CSCI 40300
+This project implements a command line interpreter or shell. The shell operates both in batch interactive and batch mode. In the interactive mode, the shell creates a child process that execute the command you entered. Once the child process terminates, the shell prompts for the next user input. In batch mode, a file name is passed in as an arguments and commands are read from that file and excuted in the same way.
